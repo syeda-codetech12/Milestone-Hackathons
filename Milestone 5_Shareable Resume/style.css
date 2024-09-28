@@ -1,0 +1,297 @@
+body{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    background-color: #ecf2f8;
+}
+
+h1{
+    text-align: center;
+    color: #003073;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+#mandatory-expression{
+    display: flex;
+    justify-content:end;
+}
+
+
+form{
+    width: 650px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    padding: 25px;
+    margin: auto;
+    background-color: white;
+}
+
+
+fieldset{
+    border: 3px solid #450920;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
+
+legend{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #450920;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    color: #450920;
+}
+
+
+
+
+#name, #title, #email, #phone, #socialHandles, #school, #degree, #grade, #skills, #position, #company, #duration, #name-forURL{
+    width: 600px;
+    height: 30px;
+    border:2px solid #450920;
+    border-radius: 4px;
+    background-color: #d4e8f7;
+
+}
+
+
+
+#startyear, #endyear{
+    border:2px solid #450920;
+    border-radius: 4px;
+    background-color: #d4e8f7;
+
+}
+
+textarea{
+    width: 600px;
+    border:2px solid #450920;
+    border-radius: 4px;
+    background-color: #d4e8f7;
+
+}
+
+.required{
+    position: relative;
+}
+
+.required::after{
+    color: red;
+    content: " * ";
+    font-size: 15px;
+    position: absolute;
+}
+
+button{
+    width: 100px;
+    background-color: #88abcc;
+    border:2px solid #003073;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'arial', 'sans-serif';
+    color: #450920;
+    margin-top: 5px;
+}
+
+
+button:hover{
+    background-color: #7eaccf;
+    box-shadow: 2px 3px 7px #003073;
+    cursor: pointer;
+}
+
+
+
+
+/* Styling CSS for Resume */
+#resume-container{
+     background-image: url(https://i.pinimg.com/564x/da/8d/ee/da8deed3ac11063620742e1135cf159a.jpg);  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    align-items: center;
+    max-width: 1500px;
+    width: 750px;
+    border:7px solid #450920;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    margin: auto;
+    padding: 40px;
+}
+
+#Resume-heading{
+    font-size: 65px;
+    font-weight: bolder;
+    color: #540b0e;
+    /* background-color: #005f73; */
+    /* border-radius: 6px; */
+    /* border: 4px solid #540b0e; */
+    margin-top: 0;
+    text-decoration: 3px double underline #450920 ;
+
+}
+
+h2{
+    color: #450920;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0;
+    margin: 5px;
+}
+
+
+
+.horizontalLine{
+    border-bottom: 1px solid #450920; 
+    width: 100%;
+    margin: 10px 0; 
+    box-shadow: 1px 2px 3px 1px #6d3234;
+}
+
+strong{
+    font-size: 35px;
+    font-family: 'serif','Times New Roman', 'Times';
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    display: block;
+}
+
+
+p{
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    font-size: 35px;
+}
+
+
+#userpic{
+    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    background-color: transparent;
+    position: relative;
+}
+
+
+#username{
+    border-radius: 5px;
+    color: #450920;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arial Narrow Bold', ' Arial ',  'sans-serif';
+    margin-bottom: 10px;
+}
+
+
+#Developer{
+    font-size: 45px;
+    font-family: 'serif';
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+#usertitle{
+    text-align: center;
+    color: #450920;
+    font-size: 35px;
+    font-family: ' Arial ',  'sans-serif', 'Tahoma', 'Verdana';
+    text-transform: capitalize;
+    margin: 0;
+    display: block;
+}
+
+
+
+#shareable-link{
+    color: #003073;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#shareable-link:hover{
+    color: #4f4d8f;
+}
+
+
+#downloads-sec{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    max-width: 1500px;
+    width: 700px;
+    /* height: 150px; */
+    border:7px solid #450920;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    margin: auto;
+    padding: 40px;
+}
+
+
+
+
+#download-pdf-btn, #copy-link-btn, #generate-link-btn{ 
+    border-radius: 10px;
+   font-size: 15px;
+   width: auto; 
+}
+
+
+
+@media (max-width: 600px) {
+/*  CSS styling for smaller screen */
+
+body{
+    margin: 10px;
+}
+
+form{
+    padding: 15px;
+margin-bottom: 20px;
+}
+
+input,textArea{
+    font-size: 14px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+
+img{
+    max-width: 100px;
+}
+
+input[type="submit"]{
+    padding: auto;
+}
+
+#resume-container{
+    padding: 15px;
+    margin-bottom: 20px;
+margin-left: -3px;
+}
+
+}
