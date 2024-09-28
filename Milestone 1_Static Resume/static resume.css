@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eae0d5;
+    font-family:'Times New Roman, Helvetica, sans-serif' ;
+    padding: 80px;
+    margin: 60px;
+}
+
+.Resume-Container{
+    background-color: #723d46;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.Profile{
+    text-align: center;
+}
+
+#name{
+    padding: 4px;
+    color:#450920;
+    font-size: 60px;
+}
+
+#Image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-width: 8px;
+    border-color: #472d30;
+    border-style: solid;
+}
+
+section{
+    margin: 30px;
+}
+
+h2{
+    margin: 15px;
+    color:#450920;
+}
+
+h3{
+    color: #450920;
+}
+
+
+.Resume-Components{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.Experience{
+    margin-bottom: 13px;
+}
+
+
+.line {
+    border-bottom: 3px solid #450920; 
+    width: 100%;
+    margin: 20px 0; 
+}
+
+
+button{
+    display: block;
+    height: 40px;
+    width: 105px;
+    background-color: #450920;
+    border-radius: 25px;
+}
